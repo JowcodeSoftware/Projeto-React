@@ -10,22 +10,22 @@ function Banda(props) {
     )
 }
 
-let bandas = (
-    <div className="bandas">
-        <Banda nome="U2"></Banda>
-        <Banda nome="Manoel Gomes"></Banda>
-        <Banda nome="BTS"></Banda>
-        <Banda nome="Koala"></Banda>
-        <Banda nome="Raimundos"></Banda>
-        <Banda nome="Mamonas"></Banda>
-        <Banda nome="Calipso"></Banda>
-        <Banda nome="Barões"></Banda>
-        <Banda nome="Xuxa"></Banda>
-        <Banda nome="Metalica"></Banda>
-        <Banda nome="Pantera"></Banda>
-        <Banda nome="NX Zero"></Banda>
+let flamework = (
+    <div className="flamework">
+        <Banda nome="Javascript"></Banda>
+        <Banda nome="Swift"></Banda>
+        <Banda nome="Python"></Banda>
+        <Banda nome="Java"></Banda>
+        <Banda nome="PHP"></Banda>
+        <Banda nome="C#"></Banda>
+        <Banda nome="React"></Banda>
+        <Banda nome="SwiftUI"></Banda>
+        <Banda nome="Flask"></Banda>
+        <Banda nome="Hibernate"></Banda>
+        <Banda nome="Laravel"></Banda>
+        <Banda nome="Unity"></Banda>
     </div>
 )
 
 let root = ReactDOM.createRoot(document.getElementById('app'))
-root.render(bandas)
+root.render(flamework)
